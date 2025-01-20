@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cat photo App</title>
+    </head>
+    <body>
+        <h2>CAT Photo</h2>
+        <main>
+            <h3> Cat photos</h3>
+            <!--todo: add link to cat photos -->
+            <p>click here to view more <a href="https://cat photos.com">cat photos</a>.</p>
+            
+            <a href="#" target="_blank"><img src="https://www.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_11342065.htm#query=nature&position=0&from_view=keyword&track=ais_hybrid&uuid=79218f30-6204-42ec-890a-bc4b41e9b4da" alt=" A cute orange cat lying on the bed."></a>
+            <h3>Cat list:</h3>
+            <div class="lists">
+            <p>Things cat <em>loves</em>:
+            </p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointer</li>
+                <li>lasagan</li>
+            </ul>
+            <img src= "cam.jpg" alt="sa" >
+            <p> things cat <strong>hates</strong></p>
+            <ol>
+              <li> flea treatment</li>
+              <li> thunder</li>
+              <li>other cats</li>
+            </ol>
+            </div>
+            <form action = "/submit-cat-photo">
+                <label for="indoor"><input id= "indoor" type ="radio" name= "indoor-outdoor">indoor</label><br>
+                <label for="outdoor"><input id="outdoor" type ="radio" name= "indoor-outdoor" checked>outdoor</label> <br> 
+                <label for="loving"><input id ="loving" type="checkbox" name="personality">Loving</label><br>
+                <label for="lazy"><input id ="lazy" type="checkbox" name="personality">Lazy</label><br>
+                <label for="energetic"><input id ="energetic" type="checkbox" name="personality">Energetic</label><br>
+                <input type="text" placeholder= "cat photo url" required>
+                <button type="submit">Submit</button>
+            </form>
+         </main>
+         <footer>
+            <p>No copyright<a href="https://freecodecamp.org"> free code camp</a></p>
+         </footer>
+    </body>
+</html>  
